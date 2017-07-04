@@ -61,7 +61,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v slide=0 darkwake=0 npci=0x3000 nvda_drv=1</string>
+		<string>slide=0 darkwake=0 npci=0x3000 nvda_drv=1</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
