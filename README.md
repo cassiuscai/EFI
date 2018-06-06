@@ -1,6 +1,6 @@
 # My Hackintosh
 
-This repository is the EFI directory (basically, a boot drive) that can boot a macOS (10.12.1, at time of writing) installation. Think of the EFI as the isolated magic boot image that will let you start macOS on unofficial hardware. Ideally, all your system compatibility changes are in this boot partition, away from macOS itself. You don't want a macOS update accidentally breaking your system.
+This repository is the EFI directory (basically, a boot drive) that can boot a macOS (10.13.4, at time of writing) installation. Think of the EFI as the isolated magic boot image that will let you start macOS on unofficial hardware. Ideally, all your system compatibility changes are in this boot partition, away from macOS itself. You don't want a macOS update accidentally breaking your system.
 This EFI will only work with my specific setup, but may work with similar ones via tweaking.
 
 ![macpro6_1_-_geekbench_browser](https://cloud.githubusercontent.com/assets/73924/20958327/f1370bc8-bc09-11e6-823b-833d1da15cbd.png)
@@ -18,7 +18,7 @@ Total Cost: ~$3500 ($500 more if using a PCIe flash drive). A maxed out Mac Pro,
 
 You need to have mostly the same hardware for this to work. Parts that can not be swapped easily will be noted.
 
-* [Cooler Master HAF XB II EVO, HTPC Computer Case](http://amzn.to/2hg0oc7)
+* [Corsair Carbide Clear 400C Compact Mid-Tower Case ](http://a.co/6L2qEmn)
 * [Corsair RMx Series, RM750x, 750W, Fully Modular Power Supply](http://amzn.to/2gmcFOR)
 * [Gigabyte X99P-SLI Motherboard](http://amzn.to/2hobBKe) <sup>[1]</sup>
 * [4 x Corsair Vengeance LPX 32GB DDR4 3200](http://amzn.to/2gjWgWs)
@@ -31,7 +31,7 @@ You need to have mostly the same hardware for this to work. Parts that can not b
 #### Notes
 1. This motherboard is a little wonky, so while other Gigabyte or Asus X99 motherboards may work, my EFI repository may not work with it. Change at your own risk. See Motherboard and Graphics Card Notes below.
 2. If you get a different CPU, you MUST modify [this line](https://github.com/koush/EFI-X99/blob/master/CLOVER/kexts/Other/VoodooTSCSync.kext/Contents/Info.plist#L54) in your checkout with the correct IOCPUNumber value. Each CPU core has two hyper threading cores. Subtract 1 to get the max IOCPUNumber (zero indexed). _IOCPUNumber = (Number of CPU Cores * 2) - 1_. For example, the 6950X has 10 cores. So (10*2)-1=19, as shown in the link.
-3. You must install [NVidia Web Drivers](http://www.insanelymac.com/forum/topic/306535-nvidia-web-driver-updates-for-el-capitan-update-10242016/) after booting. That will get your graphics card drivers installed, and you won't be stuck in VESA graphics mode. Also, see Motherboard and Graphics Card Notes below.
+3. You must install [NVidia Web Drivers](https://www.tonymacx86.com/nvidia-drivers/) after booting. That will get your graphics card drivers installed, and you won't be stuck in VESA graphics mode. Also, see Motherboard and Graphics Card Notes below.
 4. Any USB wifi will work. I chose this card because this is the the best/easiest way to get AirDrop working. Totally optional though. You don't have to get any wifi at all.
 5. Any SSD or HDD drive works. Samsung M.2 drives should work as well, as I include an [SSDT patch](https://github.com/koush/EFI-X99/blob/master/CLOVER/ACPI/patched/SSDT-NVMe-Pcc.aml) for them. Other M.2 drives may need to patch [SSDT-NVMe-Pcc.aml](https://github.com/koush/EFI-X99/blob/master/CLOVER/ACPI/patched/SSDT-NVMe-Pcc.aml) with the appropriate device path. Try running the [auto-patcher script](https://github.com/koush/EFI-X99/blob/master/CLOVER/bin/generate-spoof-nvme.sh
 ). If that doesn't work, see full [guide](https://github.com/koush/patch-nvme).
