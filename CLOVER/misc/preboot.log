@@ -1,0 +1,1226 @@
+0:100  0:100  MemLog inited, TSC freq: 3600001758
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  
+0:100  0:000  Now is 11.8.2018,  10:13:30 (GMT)
+0:100  0:000  Starting Clover revision: 4449 on American Megatrends EFI
+0:100  0:000  Build with: [Args: -t XCODE8 -mc -D DISABLE_USB_SUPPORT | -D DISABLE_USB_SUPPORT -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 5 | OS: 10.13.4 | XCODE: 9.3]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,E48B5D8F-ACBC-4783-8CB7-53A945609D1A,0x28,0x64000) @A1E07A18
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:104  0:004  === [ Get Smbios ] ========================================
+0:104  0:000  Type 16 Index = 0
+0:104  0:000  Total Memory Slots Count = 8
+0:104  0:000  Type 17 Index = 0
+0:104  0:000  Ignoring insane frequency value 0MHz
+0:104  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:104  0:000  SmbiosTable.Type17->Size = 0MB
+0:104  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 DIMM_A1
+0:104  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:104  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:104  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:104  0:000  Type 17 Index = 1
+0:104  0:000  Ignoring insane frequency value 0MHz
+0:104  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:104  0:000  SmbiosTable.Type17->Size = 0MB
+0:104  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 DIMM_A2
+0:104  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:104  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:104  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:104  0:000  Type 17 Index = 2
+0:104  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:104  0:000  SmbiosTable.Type17->Size = 16384MB
+0:104  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 DIMM_B1
+0:104  0:000  SmbiosTable.Type17->Vendor = Undefined
+0:104  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:104  0:000  SmbiosTable.Type17->PartNumber = CMK32GX4M2B3000C15 
+0:104  0:000  Type 17 Index = 3
+0:104  0:000  Ignoring insane frequency value 0MHz
+0:104  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:104  0:000  SmbiosTable.Type17->Size = 0MB
+0:104  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 DIMM_B2
+0:104  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:104  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:104  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:104  0:000  Type 17 Index = 4
+0:104  0:000  Ignoring insane frequency value 0MHz
+0:104  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:104  0:000  SmbiosTable.Type17->Size = 0MB
+0:104  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 DIMM_C1
+0:104  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:104  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:104  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:104  0:000  Type 17 Index = 5
+0:104  0:000  Ignoring insane frequency value 0MHz
+0:104  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:104  0:000  SmbiosTable.Type17->Size = 0MB
+0:104  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 DIMM_C2
+0:104  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:104  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:104  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:104  0:000  Type 17 Index = 6
+0:104  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:104  0:000  SmbiosTable.Type17->Size = 16384MB
+0:104  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 DIMM_D1
+0:104  0:000  SmbiosTable.Type17->Vendor = Undefined
+0:104  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:104  0:000  SmbiosTable.Type17->PartNumber = CMK32GX4M2B3000C15 
+0:104  0:000  Type 17 Index = 7
+0:104  0:000  Ignoring insane frequency value 0MHz
+0:104  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:104  0:000  SmbiosTable.Type17->Size = 0MB
+0:104  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 DIMM_D2
+0:104  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:104  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:104  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:104  0:000  Boot status=0
+0:104  0:000  Running on: 'Default string' with board 'X99P-SLI-CF'
+0:104  0:000  === [ GetCPUProperties ] ==================================
+0:104  0:000  CPU Vendor = 756E6547 Model=406F1
+0:104  0:000   The CPU supported SSE4.1
+0:104  0:000  BrandString = Intel(R) Core(TM) i7-6850K CPU @ 3.60GHz
+0:104  0:000   The CPU supported turbo
+0:104  0:000  MSR 0x35               6000C
+0:104  0:000  MSR 0xE2 before patch 00000403
+0:104  0:000  MSR 0xCE              20080C3B_F3812400
+0:104  0:000  MSR 0x1B0             00000000
+0:104  0:000  FSBFrequency = 112 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:104  0:000  MaxDiv/MinDiv: 36.0/12
+0:104  0:000  Turbo: 37/37/40/40
+0:104  0:000  Features: 0xBFEBFBFF
+0:104  0:000  Threads: 12
+0:104  0:000  Cores: 6
+0:104  0:000  FSB: 100 MHz
+0:104  0:000  CPU: 4000 MHz
+0:104  0:000  TSC: 4000 MHz
+0:104  0:000  PIS: 100 MHz
+0:104  0:000  ExternalClock: 25 MHz
+0:104  0:000  === [ GetDevices ] ========================================
+0:104  0:000  PCI (00|00:00.00) : 8086 6F00 class=060000
+0:104  0:000  PCI (00|00:01.00) : 8086 6F02 class=060400
+0:104  0:000  PCI (00|01:00.00) : 8086 F1A5 class=010802
+0:104  0:000  PCI (00|00:01.01) : 8086 6F03 class=060400
+0:104  0:000  PCI (00|00:03.00) : 8086 6F08 class=060400
+0:104  0:000  PCI (00|4B:00.00) : 10DE 1B06 class=030000
+0:104  0:000   - GFX: Model=nVidia GeForce GTX 1080 Ti family 132 (Nvidia)
+0:104  0:000  PCI (00|4B:00.01) : 10DE 10EF class=040300
+0:104  0:000   - HDMI Audio: 
+0:104  0:000  PCI (00|00:05.00) : 8086 6F28 class=088000
+0:104  0:000  PCI (00|00:05.01) : 8086 6F29 class=088000
+0:104  0:000  PCI (00|00:05.02) : 8086 6F2A class=088000
+0:104  0:000  PCI (00|00:05.06) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:06.00) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:06.01) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:06.02) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:06.03) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:06.04) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:06.05) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:06.06) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:06.07) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:07.00) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:07.01) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:07.02) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:07.03) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:07.04) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:11.00) : 8086 8D7C class=FF0000
+0:104  0:000  PCI (00|00:11.04) : 8086 8D62 class=010601
+0:104  0:000  PCI (00|00:14.00) : 8086 8D31 class=0C0330
+0:104  0:000  PCI (00|00:16.00) : 8086 8D3A class=078000
+0:104  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:16.02) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:16.03) : FFFF FFFF class=FFFFFF
+0:104  0:000  PCI (00|00:19.00) : 8086 15A1 class=020000
+0:104  0:000   - LAN: 0 Vendor=Intel
+0:104  0:000  PCI (00|00:1A.00) : 8086 8D2D class=0C0320
+0:104  0:000  PCI (00|00:1B.00) : 8086 8D20 class=040300
+0:104  0:000  PCI (00|00:1D.00) : 8086 8D26 class=0C0320
+0:104  0:000  PCI (00|00:1F.00) : 8086 8D47 class=060100
+0:104  0:000  PCI (00|00:1F.03) : 8086 8D22 class=0C0500
+0:104  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:104  0:000  === [ GetDefaultSettings ] ================================
+0:104  0:000  Clover load options size = 0 bytes
+0:118  0:013  EFI\CLOVER\config.plist loaded: Success
+0:118  0:000  === [ GetListOfThemes ] ===================================
+0:122  0:004  - [00]: embedded
+0:129  0:007  - [00]: random
+0:134  0:005  - [00]: Hackintosh_ID
+0:141  0:007  - [01]: SimpleThemeDark
+0:150  0:009  === [ Found config plists ] ===============================
+0:153  0:003  - config.plist
+0:157  0:004  === [ GetEarlyUserSettings ] ==============================
+0:157  0:000  timeout set to 10
+0:157  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:157  0:000  KernelXCPM: enabled
+0:157  0:000  FakeCPUID: 306A0
+0:157  0:000  KextsToPatch: 2 requested
+0:157  0:000   - [00]: AppleUSBXHCIPCI (change 15 port limit to 31 in XHCI kext (X99-series) 10.12, GA-X99P-SLI has possible 26 ports?) :: BinPatch :: data len: 7
+0:157  0:000   - [01]: IOPCIFamily (5960XPatch 10.12 by mano) :: BinPatch :: data len: 7
+0:157  0:000  Default theme: Hackintosh_ID
+0:157  0:000  Hiding entries with string BOOTX64.EFI
+0:157  0:000  Hiding entries with string Windows
+0:157  0:000  Hiding entries with string Preboot
+0:157  0:000  === [ LoadDrivers ] =======================================
+0:163  0:006  Loading AppleImageCodec-64.efi  status=Success
+0:172  0:009  Loading AppleKeyAggregator-64.efi  status=Success
+0:178  0:006  Loading AppleUITheme-64.efi  status=Success
+0:184  0:006  Loading DataHubDxe-64.efi  status=Success
+0:191  0:006  Loading FSInject-64.efi  status=Success
+0:197  0:006  Loading FirmwareVolume-64.efi  status=Success
+0:203  0:006  Loading OsxAptioFix2Drv-free2000.efi  status=Success
+0:209  0:006  Loading SMCHelper-64.efi  status=Success
+0:215  0:006  Loading VBoxHfs-64.efi  status=Success
+0:221  0:006   - driver needs connecting
+0:221  0:000  Loading apfs.efi  status=Success
+0:232  0:011   - driver needs connecting
+0:233  0:001  2 drivers needs connecting ...
+0:233  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:233  0:000  APFS driver loaded
+0:233  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+7:949  7:715  === [ InitScreen ] ========================================
+7:949  0:000  SetMaxResolution: found best mode 5: 2560x1440
+8:487  0:538  Video mode change to mode #5: Success
+8:487  0:000   - set
+8:487  0:000  Console modes reported: 5, available modes:
+8:487  0:000   - [01]: 80x25 (current mode)
+8:487  0:000   - [02]: 80x50
+8:487  0:000   - [03]: 100x31
+8:487  0:000   - [04]: 127x33
+8:487  0:000   - [05]: 100x60
+8:487  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,E48B5D8F-ACBC-4783-8CB7-53A945609D1A,0x28,0x64000)
+8:490  0:003  Using embedded font: Success
+10:527  2:036  === [ GetMacAddress ] =====================================
+10:527  0:000  MAC address of LAN #0= 1C:1B:0D:9D:54:AA:
+10:527  0:000  === [ ScanSPD ] ===========================================
+10:528  0:000  SMBus device : 8086 8D22 class=0C0500 status=Success
+10:528  0:000  SMBus CmdReg: 0x1
+10:528  0:000  Scanning SMBus [8086:8D22], mmio: 0xDF235004, ioport: 0x580, hostc: 0x11
+10:528  0:000  Slots to scan [8]...
+10:529  0:001  === [ GetAcpiTablesList ] =================================
+10:529  0:000  Get Acpi Tables List from RSDT:
+10:529  0:000   - [00]: FACP  A M I len=132
+10:529  0:000   - [01]: APIC  A M I len=244
+10:529  0:000   - [02]: FPDT  A M I len=68
+10:529  0:000   - [03]: FIDT  A M I len=156
+10:529  0:000   - [04]: MCFG  A M I len=60
+10:529  0:000   - [05]: SSDT  IdeTable len=1173
+10:529  0:000   - [06]: UEFI  A M I len=66
+10:529  0:000   - [07]: HPET  A M I len=56
+10:529  0:000   - [08]: MSCT  A M I len=144
+10:529  0:000   - [09]: SLIT  A M I len=45
+10:529  0:000   - [10]: SRAT  A M I len=4440
+10:529  0:000   - [11]: WDDT  A M I len=64
+10:529  0:000   - [12]: SSDT  PmMgt len=67162
+10:529  0:000   - [13]: NITR  A M I len=113
+10:529  0:000   - [14]: BGRT  ALASKAA  len=56
+10:529  0:000   - [15]: DMAR  A M I len=204
+10:529  0:000   - [16]: ASF!   HCG len=160
+10:529  0:000  Calibrated TSC Frequency = 3600001758 = 3600MHz
+10:529  0:000  === [ GetUserSettings ] ===================================
+10:529  0:000  USB FixOwnership: no
+10:529  0:000  Dropping 2 tables:
+10:529  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+10:529  0:000           - set table: 52414D44,                0 to drop: yes
+10:529  0:000   - [01]: Drop table  signature="SSDT" (54445353) table-id="PmMgt" (00000074674D6D50)
+10:529  0:000           - set table: 54445353,       74674D6D50 to drop: yes
+10:529  0:000   - final DSDT Fix mask=00008000
+10:529  0:000  PatchesDSDT: 1 requested
+10:529  0:000   - [00]: (XHCI to XHC_) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+10:529  0:000  Using ProductName from config: MacPro6,1
+10:529  0:000  Found same BiosVersion in clover and config
+10:529  0:000  BiosVersion: MP61.88Z.0122.B00.1802021814
+10:529  0:000  BiosReleaseDate: 02/02/2018
+10:529  0:000  Using FirmwareFeatures from config: 0xE80FE137
+10:529  0:000  Using FirmwareFeaturesMask from config: 0xFF1FFF3F
+10:529  0:000  Board-ID set from config as Mac-F60DEB81FF30ACF6
+10:529  0:000  BoardType: 0xB
+10:529  0:000  ChassisType: 0x2
+10:910  0:380  === [ ScanVolumes ] =======================================
+10:910  0:000  Found 13 volumes with blockIO
+10:910  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+10:911  0:001  - [01]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,E48B5D8F-ACBC-4783-8CB7-53A945609D1A,0x28,0x64000)
+10:912  0:001          Result of bootcode detection: bootable unknown (legacy)
+10:917  0:005          This is SelfVolume !!
+10:917  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)
+10:918  0:001          Result of bootcode detection: bootable unknown (legacy)
+10:918  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)
+10:918  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,235CADFB-B793-4C23-AA54-F0450DF73C21,0x28,0x64000)
+10:919  0:000          Result of bootcode detection: bootable unknown (legacy)
+10:919  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,8290C231-02CE-4A80-A907-0237EDE02618,0x64028,0x1D1BA7E67)
+10:920  0:000          Result of bootcode detection: bootable unknown (legacy)
+10:920  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AAF61F8B3326C3428E1381912E2F302B)
+10:920  0:000          hiding this volume
+10:920  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FA6DC5D86F9A23408D11967B630F0F26)
+10:920  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,87CC688C4854624BB208BB2BB28690D0)
+10:920  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E14F8BC55CD2654D96E248E1ED377B2A)
+10:920  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6A597C1142925C4BB4EAFA53ABD0DB1C)
+10:920  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D7CB0C213510AD4EBCE886159F18C7A1)
+10:920  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,8290C231-02CE-4A80-A907-0237EDE02618,0x64028,0x1D1BA7E67)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E4FB129A6371BE46986C61EC3727839F)
+10:920  0:000  === [ InitTheme ] =========================================
+10:932  0:011  Using theme 'Hackintosh_ID' (EFI\CLOVER\themes\Hackintosh_ID)
+10:932  0:000  OS main and drive as badge
+10:939  0:006  Loading font from ThemeDir: Success
+10:939  0:000  Choosing theme Hackintosh_ID
+10:939  0:000  after NVRAM boot-args=slide=0 darkwake=0 npci=0x3000 nvda_drv=1
+10:939  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+10:939  0:000  found AppleSMC protocol
+10:946  0:006  Registered 17 SMC keys
+10:946  0:000  === [ ScanLoader ] ========================================
+10:946  0:000  - [01]: 'EFI'
+11:091  0:145  - [04]: 'EFI'
+11:172  0:080  - [06]: 'Preboot', hidden
+11:172  0:000  - [07]: 'Hackintosh'
+11:208  0:035          AddLoaderEntry for Volume Name=Hackintosh
+11:217  0:009      Check if volume Is Hibernated:
+11:217  0:000      Check sleep image 'by signature':
+11:235  0:017      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+11:235  0:000      using default sleep image name = \private\var\vm\sleepimage
+11:250  0:015      sleepimage not found -> Not Found
+11:250  0:000      hibernated: no - sign
+11:346  0:096  - [08]: 'Recovery'
+11:348  0:001          AddLoaderEntry for Volume Name=Recovery
+11:444  0:096  - [09]: 'VM'
+11:525  0:080  - [10]: 'VirtualMachine'
+11:609  0:084  - [11]: 'Cassius'
+11:696  0:086  - [12]: 'BackUp'
+11:783  0:086  === [ AddCustomTool ] =====================================
+11:799  0:016  === [ GetEfiBootDeviceFromNvram ] =========================
+11:799  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FA6DC5D86F9A23408D11967B630F0F26)
+11:799  0:000    - Volume: 'PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FA6DC5D86F9A23408D11967B630F0F26)'
+11:799  0:000    - LoaderPath: '<null string>'
+11:799  0:000    - Guid = 7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26
+11:799  0:000  === [ FindStartupDiskVolume ] =============================
+11:799  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FA6DC5D86F9A23408D11967B630F0F26)
+11:799  0:000     - searching for that partition
+11:799  0:000      - found entry 0. 'Boot macOS from Hackintosh', Volume 'Hackintosh'
+11:799  0:000  Boot redirected to Entry 0. 'Boot macOS from Hackintosh'
+11:799  0:000  DefaultIndex=0 and MainMenu.EntryCount=6
+12:018  0:218  GUI ready
+27:960  15:941  ReinitSelfLib after theme change
+27:960  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,E48B5D8F-ACBC-4783-8CB7-53A945609D1A,0x28,0x64000)
+27:964  0:004  === [ ScanVolumes ] =======================================
+27:964  0:000  Found 13 volumes with blockIO
+27:964  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+27:965  0:001  - [01]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,E48B5D8F-ACBC-4783-8CB7-53A945609D1A,0x28,0x64000)
+27:966  0:001          Result of bootcode detection: bootable unknown (legacy)
+27:970  0:004          This is SelfVolume !!
+27:970  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)
+27:971  0:001          Result of bootcode detection: bootable unknown (legacy)
+27:971  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)
+27:971  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,235CADFB-B793-4C23-AA54-F0450DF73C21,0x28,0x64000)
+27:972  0:000          Result of bootcode detection: bootable unknown (legacy)
+27:972  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,8290C231-02CE-4A80-A907-0237EDE02618,0x64028,0x1D1BA7E67)
+27:973  0:000          Result of bootcode detection: bootable unknown (legacy)
+27:973  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AAF61F8B3326C3428E1381912E2F302B)
+27:973  0:000          hiding this volume
+27:973  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FA6DC5D86F9A23408D11967B630F0F26)
+27:973  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,87CC688C4854624BB208BB2BB28690D0)
+27:973  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E14F8BC55CD2654D96E248E1ED377B2A)
+27:973  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6A597C1142925C4BB4EAFA53ABD0DB1C)
+27:973  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D7CB0C213510AD4EBCE886159F18C7A1)
+27:973  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,8290C231-02CE-4A80-A907-0237EDE02618,0x64028,0x1D1BA7E67)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E4FB129A6371BE46986C61EC3727839F)
+27:973  0:000  === [ InitTheme ] =========================================
+27:984  0:010  Using theme 'SimpleThemeDark' (EFI\CLOVER\themes\SimpleThemeDark)
+27:984  0:000  OS main and drive as badge
+27:990  0:006  Loading font from ThemeDir: Success
+27:990  0:000  Choosing theme SimpleThemeDark
+27:990  0:000  after NVRAM boot-args=slide=0 darkwake=0 npci=0x3000 nvda_drv=1
+27:990  0:000  === [ ScanLoader ] ========================================
+27:990  0:000  - [01]: 'EFI'
+28:123  0:132  - [04]: 'EFI'
+28:206  0:083  - [06]: 'Preboot', hidden
+28:206  0:000  - [07]: 'Hackintosh'
+28:218  0:012          AddLoaderEntry for Volume Name=Hackintosh
+28:222  0:003      Check if volume Is Hibernated:
+28:222  0:000      Check sleep image 'by signature':
+28:226  0:004      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+28:226  0:000      using default sleep image name = \private\var\vm\sleepimage
+28:227  0:001      sleepimage not found -> Not Found
+28:227  0:000      hibernated: no - sign
+28:327  0:099  - [08]: 'Recovery'
+28:329  0:001          AddLoaderEntry for Volume Name=Recovery
+28:427  0:098  - [09]: 'VM'
+28:511  0:083  - [10]: 'VirtualMachine'
+28:597  0:086  - [11]: 'Cassius'
+28:686  0:088  - [12]: 'BackUp'
+28:775  0:088  === [ AddCustomTool ] =====================================
+28:791  0:016  === [ GetEfiBootDeviceFromNvram ] =========================
+28:791  0:000  === [ FindStartupDiskVolume ] =============================
+28:791  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FA6DC5D86F9A23408D11967B630F0F26)
+28:791  0:000     - searching for that partition
+28:791  0:000      - found entry 0. 'Boot macOS from Hackintosh', Volume 'Hackintosh'
+28:791  0:000  Boot redirected to Entry 0. 'Boot macOS from Hackintosh'
+28:791  0:000  DefaultIndex=0 and MainMenu.EntryCount=6
+28:984  0:192          [!] Icon 11 (icons\pointer.png) not found (path: EFI\CLOVER\themes\SimpleThemeDark)
+80:495  51:511  ReinitSelfLib after theme change
+80:495  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,E48B5D8F-ACBC-4783-8CB7-53A945609D1A,0x28,0x64000)
+80:499  0:004  === [ ScanVolumes ] =======================================
+80:499  0:000  Found 13 volumes with blockIO
+80:499  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+80:500  0:001  - [01]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,E48B5D8F-ACBC-4783-8CB7-53A945609D1A,0x28,0x64000)
+80:501  0:001          Result of bootcode detection: bootable unknown (legacy)
+80:505  0:004          This is SelfVolume !!
+80:505  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)
+80:506  0:001          Result of bootcode detection: bootable unknown (legacy)
+80:506  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)
+80:507  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,235CADFB-B793-4C23-AA54-F0450DF73C21,0x28,0x64000)
+80:507  0:000          Result of bootcode detection: bootable unknown (legacy)
+80:507  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,8290C231-02CE-4A80-A907-0237EDE02618,0x64028,0x1D1BA7E67)
+80:508  0:000          Result of bootcode detection: bootable unknown (legacy)
+80:508  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AAF61F8B3326C3428E1381912E2F302B)
+80:508  0:000          hiding this volume
+80:508  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FA6DC5D86F9A23408D11967B630F0F26)
+80:508  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,87CC688C4854624BB208BB2BB28690D0)
+80:508  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E14F8BC55CD2654D96E248E1ED377B2A)
+80:508  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6A597C1142925C4BB4EAFA53ABD0DB1C)
+80:508  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D7CB0C213510AD4EBCE886159F18C7A1)
+80:508  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,8290C231-02CE-4A80-A907-0237EDE02618,0x64028,0x1D1BA7E67)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E4FB129A6371BE46986C61EC3727839F)
+80:509  0:000  Choosing theme SimpleThemeDark
+80:509  0:000  after NVRAM boot-args=slide=0 darkwake=0 npci=0x3000 nvda_drv=1
+80:509  0:000  === [ ScanLoader ] ========================================
+80:509  0:000  - [01]: 'EFI'
+80:633  0:124  - [04]: 'EFI'
+80:716  0:083  - [06]: 'Preboot', hidden
+80:716  0:000  - [07]: 'Hackintosh'
+80:729  0:012          AddLoaderEntry for Volume Name=Hackintosh
+80:732  0:003      Check if volume Is Hibernated:
+80:732  0:000      Check sleep image 'by signature':
+80:736  0:004      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+80:736  0:000      using default sleep image name = \private\var\vm\sleepimage
+80:738  0:001      sleepimage not found -> Not Found
+80:738  0:000      hibernated: no - sign
+80:837  0:099  - [08]: 'Recovery'
+80:839  0:001          AddLoaderEntry for Volume Name=Recovery
+80:938  0:099  - [09]: 'VM'
+81:021  0:083  - [10]: 'VirtualMachine'
+81:108  0:086  - [11]: 'Cassius'
+81:196  0:088  - [12]: 'BackUp'
+81:285  0:088  === [ AddCustomTool ] =====================================
+81:285  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+81:285  0:000  === [ FindStartupDiskVolume ] =============================
+81:285  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FA6DC5D86F9A23408D11967B630F0F26)
+81:285  0:000     - searching for that partition
+81:285  0:000      - found entry 0. 'Boot macOS from Hackintosh', Volume 'Hackintosh'
+81:285  0:000  Boot redirected to Entry 0. 'Boot macOS from Hackintosh'
+81:285  0:000  DefaultIndex=0 and MainMenu.EntryCount=6
+96:988  15:702  ReinitSelfLib after theme change
+96:988  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,E48B5D8F-ACBC-4783-8CB7-53A945609D1A,0x28,0x64000)
+96:992  0:004  === [ ScanVolumes ] =======================================
+96:992  0:000  Found 13 volumes with blockIO
+96:992  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+96:993  0:001  - [01]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,E48B5D8F-ACBC-4783-8CB7-53A945609D1A,0x28,0x64000)
+96:994  0:001          Result of bootcode detection: bootable unknown (legacy)
+96:998  0:004          This is SelfVolume !!
+96:998  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)
+96:999  0:001          Result of bootcode detection: bootable unknown (legacy)
+96:999  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)
+97:000  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,235CADFB-B793-4C23-AA54-F0450DF73C21,0x28,0x64000)
+97:000  0:000          Result of bootcode detection: bootable unknown (legacy)
+97:000  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,8290C231-02CE-4A80-A907-0237EDE02618,0x64028,0x1D1BA7E67)
+97:001  0:000          Result of bootcode detection: bootable unknown (legacy)
+97:001  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AAF61F8B3326C3428E1381912E2F302B)
+97:001  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FA6DC5D86F9A23408D11967B630F0F26)
+97:001  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,87CC688C4854624BB208BB2BB28690D0)
+97:001  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E14F8BC55CD2654D96E248E1ED377B2A)
+97:001  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6A597C1142925C4BB4EAFA53ABD0DB1C)
+97:001  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D7CB0C213510AD4EBCE886159F18C7A1)
+97:001  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,8290C231-02CE-4A80-A907-0237EDE02618,0x64028,0x1D1BA7E67)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E4FB129A6371BE46986C61EC3727839F)
+97:002  0:000  Choosing theme SimpleThemeDark
+97:002  0:000  after NVRAM boot-args=slide=0 darkwake=0 npci=0x3000 nvda_drv=1
+97:002  0:000  === [ ScanLoader ] ========================================
+97:002  0:000  - [01]: 'EFI'
+97:126  0:124  - [04]: 'EFI'
+97:209  0:083  - [06]: 'Preboot'
+97:212  0:003          AddLoaderEntry for Volume Name=Preboot
+97:215  0:002      Check if volume Is Hibernated:
+97:215  0:000      Check sleep image 'by signature':
+97:215  0:000      using default sleep image name = \private\var\vm\sleepimage
+97:215  0:000      sleepimage not found -> Not Found
+97:215  0:000      hibernated: no - sign
+97:229  0:013          AddLoaderEntry for Volume Name=Preboot
+97:324  0:095  - [07]: 'Hackintosh'
+97:337  0:012          AddLoaderEntry for Volume Name=Hackintosh
+97:340  0:003      Check if volume Is Hibernated:
+97:340  0:000      Check sleep image 'by signature':
+97:344  0:004      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+97:344  0:000      using default sleep image name = \private\var\vm\sleepimage
+97:346  0:001      sleepimage not found -> Not Found
+97:346  0:000      hibernated: no - sign
+97:444  0:098  - [08]: 'Recovery'
+97:446  0:001          AddLoaderEntry for Volume Name=Recovery
+97:545  0:098  - [09]: 'VM'
+97:628  0:083  - [10]: 'VirtualMachine'
+97:714  0:086  - [11]: 'Cassius'
+97:803  0:088  - [12]: 'BackUp'
+97:892  0:089  === [ AddCustomTool ] =====================================
+97:892  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+97:892  0:000  === [ FindStartupDiskVolume ] =============================
+97:892  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FA6DC5D86F9A23408D11967B630F0F26)
+97:892  0:000     - searching for that partition
+97:892  0:000      - found entry 2. 'Boot macOS from Hackintosh', Volume 'Hackintosh'
+97:892  0:000  Boot redirected to Entry 2. 'Boot macOS from Hackintosh'
+97:892  0:000  DefaultIndex=2 and MainMenu.EntryCount=8
+119:031  21:138  Found BIOS RSDP at FCCA0
+119:031  0:000  Printing ACPI tables from RSDP FCCA0 ...
+119:031  0:000   FCCA0: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+119:031  0:000    (Xsdt: A60A4098, Rsdt: A60A4028)
+119:031  0:000    A60A4098: 'XSDT', 'A M I', Rev: 1, Len: 172
+119:031  0:000    A60A4028: 'RSDT', 'A M I', Rev: 1, Len: 104
+119:031  0:000    Tables in Xsdt: 17
+119:031  0:000    0. A60D9058: 'FACP', 'A M I', Rev: 5, Len: 268
+119:031  0:000        (Dsdt: A60A41D8, Facs: A643CF80, XDsdt: A60A41D8, XFacs: 0)
+119:031  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+119:034  0:002        A643CF80: 'FACS', Ver: 2, Len: 64
+119:034  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+119:034  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+119:034  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+119:034  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+119:034  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+119:034  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+119:034  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+119:034  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+119:034  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+119:034  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+119:034  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+119:034  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+119:034  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+119:034  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+119:034  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+119:034  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+119:034  0:000    Tables in Rsdt: 17
+119:034  0:000    0. A60A4150: 'FACP', 'A M I', Rev: 2, Len: 132
+119:034  0:000        (Dsdt: A60A41D8, Facs: A643CF40)
+119:034  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+119:037  0:002        A643CF40: 'FACS', Ver: 0, Len: 64
+119:037  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+119:037  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+119:037  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+119:037  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+119:037  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+119:037  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+119:037  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+119:037  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+119:037  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+119:037  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+119:037  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+119:037  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+119:037  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+119:037  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+119:037  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+119:037  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+119:037  0:000  Found UEFI Acpi 2.0 RSDP at A60A4000
+119:037  0:000  Saving ACPI tables from RSDP A60A4000 to EFI\CLOVER\ACPI\origin ...
+119:037  0:000   A60A4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+119:066  0:029    (Xsdt: A60A4098, Rsdt: A60A4028)
+119:066  0:000    A60A4098: 'XSDT', 'A M I', Rev: 1, Len: 172 -> XSDT.aml
+119:084  0:017    A60A4028: 'RSDT', 'A M I', Rev: 1, Len: 104 -> RSDT.aml
+119:103  0:019    Tables in Xsdt: 17
+119:103  0:000    0. A60D9058: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+119:121  0:017        (Dsdt: A60A41D8, Facs: A643CF80, XDsdt: A60A41D8, XFacs: 0)
+119:121  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703 -> DSDT.aml
+119:150  0:028        A643CF80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+119:171  0:020    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244 -> APIC.aml
+119:192  0:020    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+119:212  0:020    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+119:233  0:020    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+119:254  0:020    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173 -> SSDT-0-IdeTable.aml
+119:275  0:020    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
+119:295  0:020    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+119:324  0:028    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144 -> MSCT.aml
+119:346  0:021    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45 -> SLIT.aml
+119:368  0:021    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440 -> SRAT.aml
+119:390  0:021    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64 -> WDDT.aml
+119:413  0:023    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162 -> SSDT-1-PmMgt.aml
+119:438  0:024    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113 -> NITR.aml
+119:461  0:022    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56 -> BGRT.aml
+119:484  0:022    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204 -> DMAR.aml
+119:506  0:022    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160 -> ASF!.aml
+119:529  0:022    Tables in Rsdt: 17
+119:529  0:000    0. A60A4150: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+119:552  0:022        (Dsdt: A60A41D8, Facs: A643CF40)
+119:552  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+119:555  0:002        A643CF40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+119:578  0:022    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+119:578  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+119:578  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+119:578  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+119:578  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+119:578  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+119:578  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+119:578  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+119:578  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+119:578  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+119:578  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+119:578  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+119:578  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+119:578  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+119:578  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+119:578  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+119:578  0:000  Found UEFI Acpi 1.0 RSDP at A60A4000
+119:578  0:000  Printing ACPI tables from RSDP A60A4000 ...
+119:578  0:000   A60A4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+119:578  0:000    (Xsdt: A60A4098, Rsdt: A60A4028)
+119:578  0:000    A60A4098: 'XSDT', 'A M I', Rev: 1, Len: 172
+119:578  0:000    A60A4028: 'RSDT', 'A M I', Rev: 1, Len: 104
+119:578  0:000    Tables in Xsdt: 17
+119:578  0:000    0. A60D9058: 'FACP', 'A M I', Rev: 5, Len: 268
+119:578  0:000        (Dsdt: A60A41D8, Facs: A643CF80, XDsdt: A60A41D8, XFacs: 0)
+119:578  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+119:581  0:002        A643CF80: 'FACS', Ver: 2, Len: 64
+119:581  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+119:581  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+119:581  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+119:581  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+119:581  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+119:581  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+119:581  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+119:581  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+119:581  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+119:581  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+119:581  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+119:581  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+119:581  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+119:581  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+119:581  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+119:581  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+119:581  0:000    Tables in Rsdt: 17
+119:581  0:000    0. A60A4150: 'FACP', 'A M I', Rev: 2, Len: 132
+119:581  0:000        (Dsdt: A60A41D8, Facs: A643CF40)
+119:581  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+119:584  0:002        A643CF40: 'FACS', Ver: 0, Len: 64
+119:584  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+119:584  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+119:584  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+119:584  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+119:584  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+119:584  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+119:584  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+119:584  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+119:584  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+119:584  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+119:584  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+119:584  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+119:584  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+119:584  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+119:584  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+119:584  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+121:887  2:303  Found BIOS RSDP at FCCA0
+121:887  0:000  Printing ACPI tables from RSDP FCCA0 ...
+121:887  0:000   FCCA0: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+121:887  0:000    (Xsdt: A60A4098, Rsdt: A60A4028)
+121:887  0:000    A60A4098: 'XSDT', 'A M I', Rev: 1, Len: 172
+121:887  0:000    A60A4028: 'RSDT', 'A M I', Rev: 1, Len: 104
+121:887  0:000    Tables in Xsdt: 17
+121:887  0:000    0. A60D9058: 'FACP', 'A M I', Rev: 5, Len: 268
+121:887  0:000        (Dsdt: A60A41D8, Facs: A643CF80, XDsdt: A60A41D8, XFacs: 0)
+121:887  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+121:890  0:002        A643CF80: 'FACS', Ver: 2, Len: 64
+121:890  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+121:890  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+121:890  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+121:890  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+121:890  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+121:890  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+121:890  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+121:890  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+121:890  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+121:890  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+121:890  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+121:890  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+121:890  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+121:890  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+121:890  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+121:890  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+121:890  0:000    Tables in Rsdt: 17
+121:890  0:000    0. A60A4150: 'FACP', 'A M I', Rev: 2, Len: 132
+121:890  0:000        (Dsdt: A60A41D8, Facs: A643CF40)
+121:890  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+121:893  0:002        A643CF40: 'FACS', Ver: 0, Len: 64
+121:893  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+121:893  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+121:893  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+121:893  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+121:893  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+121:893  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+121:893  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+121:893  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+121:893  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+121:893  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+121:893  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+121:893  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+121:893  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+121:893  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+121:893  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+121:893  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+121:893  0:000  Found UEFI Acpi 2.0 RSDP at A60A4000
+121:893  0:000  Saving ACPI tables from RSDP A60A4000 to EFI\CLOVER\ACPI\origin ...
+121:893  0:000   A60A4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+121:893  0:000    (Xsdt: A60A4098, Rsdt: A60A4028)
+121:893  0:000    A60A4098: 'XSDT', 'A M I', Rev: 1, Len: 172
+121:893  0:000    A60A4028: 'RSDT', 'A M I', Rev: 1, Len: 104
+121:893  0:000    Tables in Xsdt: 17
+121:893  0:000    0. A60D9058: 'FACP', 'A M I', Rev: 5, Len: 268
+121:893  0:000        (Dsdt: A60A41D8, Facs: A643CF80, XDsdt: A60A41D8, XFacs: 0)
+121:893  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+121:896  0:002        A643CF80: 'FACS', Ver: 2, Len: 64
+121:896  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+121:896  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+121:896  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+121:896  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+121:896  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+121:896  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+121:896  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+121:896  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+121:896  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+121:896  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+121:896  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+121:896  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+121:896  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+121:896  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+121:896  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+121:896  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+121:896  0:000    Tables in Rsdt: 17
+121:896  0:000    0. A60A4150: 'FACP', 'A M I', Rev: 2, Len: 132
+121:896  0:000        (Dsdt: A60A41D8, Facs: A643CF40)
+121:896  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+121:899  0:002        A643CF40: 'FACS', Ver: 0, Len: 64
+121:899  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+121:899  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+121:899  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+121:899  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+121:899  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+121:899  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+121:899  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+121:899  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+121:899  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+121:899  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+121:899  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+121:899  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+121:899  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+121:899  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+121:899  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+121:899  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+121:899  0:000  Found UEFI Acpi 1.0 RSDP at A60A4000
+121:899  0:000  Printing ACPI tables from RSDP A60A4000 ...
+121:899  0:000   A60A4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+121:899  0:000    (Xsdt: A60A4098, Rsdt: A60A4028)
+121:899  0:000    A60A4098: 'XSDT', 'A M I', Rev: 1, Len: 172
+121:899  0:000    A60A4028: 'RSDT', 'A M I', Rev: 1, Len: 104
+121:899  0:000    Tables in Xsdt: 17
+121:899  0:000    0. A60D9058: 'FACP', 'A M I', Rev: 5, Len: 268
+121:899  0:000        (Dsdt: A60A41D8, Facs: A643CF80, XDsdt: A60A41D8, XFacs: 0)
+121:899  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+121:902  0:002        A643CF80: 'FACS', Ver: 2, Len: 64
+121:902  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+121:902  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+121:902  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+121:902  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+121:902  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+121:902  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+121:902  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+121:902  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+121:902  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+121:902  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+121:902  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+121:902  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+121:902  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+121:902  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+121:902  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+121:902  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+121:902  0:000    Tables in Rsdt: 17
+121:902  0:000    0. A60A4150: 'FACP', 'A M I', Rev: 2, Len: 132
+121:902  0:000        (Dsdt: A60A41D8, Facs: A643CF40)
+121:902  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+121:905  0:002        A643CF40: 'FACS', Ver: 0, Len: 64
+121:905  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+121:905  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+121:905  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+121:905  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+121:905  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+121:905  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+121:905  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+121:905  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+121:905  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+121:905  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+121:905  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+121:905  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+121:905  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+121:905  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+121:905  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+121:905  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+122:719  0:814  Found BIOS RSDP at FCCA0
+122:719  0:000  Printing ACPI tables from RSDP FCCA0 ...
+122:719  0:000   FCCA0: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+122:719  0:000    (Xsdt: A60A4098, Rsdt: A60A4028)
+122:719  0:000    A60A4098: 'XSDT', 'A M I', Rev: 1, Len: 172
+122:719  0:000    A60A4028: 'RSDT', 'A M I', Rev: 1, Len: 104
+122:719  0:000    Tables in Xsdt: 17
+122:719  0:000    0. A60D9058: 'FACP', 'A M I', Rev: 5, Len: 268
+122:719  0:000        (Dsdt: A60A41D8, Facs: A643CF80, XDsdt: A60A41D8, XFacs: 0)
+122:719  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+122:722  0:002        A643CF80: 'FACS', Ver: 2, Len: 64
+122:722  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+122:722  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+122:722  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+122:722  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+122:722  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+122:722  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+122:722  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+122:722  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+122:722  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+122:722  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+122:722  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+122:722  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+122:722  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+122:722  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+122:722  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+122:722  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+122:722  0:000    Tables in Rsdt: 17
+122:722  0:000    0. A60A4150: 'FACP', 'A M I', Rev: 2, Len: 132
+122:722  0:000        (Dsdt: A60A41D8, Facs: A643CF40)
+122:722  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+122:725  0:002        A643CF40: 'FACS', Ver: 0, Len: 64
+122:725  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+122:725  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+122:725  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+122:725  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+122:725  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+122:725  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+122:725  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+122:725  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+122:725  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+122:725  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+122:725  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+122:725  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+122:725  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+122:725  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+122:725  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+122:725  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+122:725  0:000  Found UEFI Acpi 2.0 RSDP at A60A4000
+122:725  0:000  Saving ACPI tables from RSDP A60A4000 to EFI\CLOVER\ACPI\origin ...
+122:725  0:000   A60A4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+122:725  0:000    (Xsdt: A60A4098, Rsdt: A60A4028)
+122:725  0:000    A60A4098: 'XSDT', 'A M I', Rev: 1, Len: 172
+122:725  0:000    A60A4028: 'RSDT', 'A M I', Rev: 1, Len: 104
+122:725  0:000    Tables in Xsdt: 17
+122:725  0:000    0. A60D9058: 'FACP', 'A M I', Rev: 5, Len: 268
+122:725  0:000        (Dsdt: A60A41D8, Facs: A643CF80, XDsdt: A60A41D8, XFacs: 0)
+122:725  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+122:728  0:002        A643CF80: 'FACS', Ver: 2, Len: 64
+122:728  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+122:728  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+122:728  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+122:728  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+122:728  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+122:728  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+122:728  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+122:728  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+122:728  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+122:728  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+122:728  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+122:728  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+122:728  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+122:728  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+122:728  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+122:728  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+122:728  0:000    Tables in Rsdt: 17
+122:728  0:000    0. A60A4150: 'FACP', 'A M I', Rev: 2, Len: 132
+122:728  0:000        (Dsdt: A60A41D8, Facs: A643CF40)
+122:728  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+122:731  0:002        A643CF40: 'FACS', Ver: 0, Len: 64
+122:731  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+122:731  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+122:731  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+122:731  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+122:731  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+122:731  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+122:731  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+122:731  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+122:731  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+122:731  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+122:731  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+122:731  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+122:731  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+122:731  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+122:731  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+122:731  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+122:731  0:000  Found UEFI Acpi 1.0 RSDP at A60A4000
+122:731  0:000  Printing ACPI tables from RSDP A60A4000 ...
+122:731  0:000   A60A4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+122:731  0:000    (Xsdt: A60A4098, Rsdt: A60A4028)
+122:731  0:000    A60A4098: 'XSDT', 'A M I', Rev: 1, Len: 172
+122:731  0:000    A60A4028: 'RSDT', 'A M I', Rev: 1, Len: 104
+122:731  0:000    Tables in Xsdt: 17
+122:731  0:000    0. A60D9058: 'FACP', 'A M I', Rev: 5, Len: 268
+122:731  0:000        (Dsdt: A60A41D8, Facs: A643CF80, XDsdt: A60A41D8, XFacs: 0)
+122:731  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+122:734  0:002        A643CF80: 'FACS', Ver: 2, Len: 64
+122:734  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+122:734  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+122:734  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+122:734  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+122:734  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+122:734  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+122:734  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+122:734  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+122:734  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+122:734  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+122:734  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+122:734  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+122:734  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+122:734  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+122:734  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+122:734  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+122:734  0:000    Tables in Rsdt: 17
+122:734  0:000    0. A60A4150: 'FACP', 'A M I', Rev: 2, Len: 132
+122:734  0:000        (Dsdt: A60A41D8, Facs: A643CF40)
+122:734  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+122:737  0:002        A643CF40: 'FACS', Ver: 0, Len: 64
+122:737  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+122:737  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+122:737  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+122:737  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+122:737  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+122:737  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+122:737  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+122:737  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+122:737  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+122:737  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+122:737  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+122:737  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+122:737  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+122:737  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+122:737  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+122:737  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+123:015  0:278  Found BIOS RSDP at FCCA0
+123:015  0:000  Printing ACPI tables from RSDP FCCA0 ...
+123:015  0:000   FCCA0: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+123:015  0:000    (Xsdt: A60A4098, Rsdt: A60A4028)
+123:015  0:000    A60A4098: 'XSDT', 'A M I', Rev: 1, Len: 172
+123:015  0:000    A60A4028: 'RSDT', 'A M I', Rev: 1, Len: 104
+123:015  0:000    Tables in Xsdt: 17
+123:015  0:000    0. A60D9058: 'FACP', 'A M I', Rev: 5, Len: 268
+123:015  0:000        (Dsdt: A60A41D8, Facs: A643CF80, XDsdt: A60A41D8, XFacs: 0)
+123:015  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+123:018  0:002        A643CF80: 'FACS', Ver: 2, Len: 64
+123:018  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+123:018  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+123:018  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+123:018  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+123:018  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+123:018  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+123:018  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+123:018  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+123:018  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+123:018  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+123:018  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+123:018  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+123:018  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+123:018  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+123:018  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+123:018  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+123:018  0:000    Tables in Rsdt: 17
+123:018  0:000    0. A60A4150: 'FACP', 'A M I', Rev: 2, Len: 132
+123:018  0:000        (Dsdt: A60A41D8, Facs: A643CF40)
+123:018  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+123:021  0:002        A643CF40: 'FACS', Ver: 0, Len: 64
+123:021  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+123:021  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+123:021  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+123:021  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+123:021  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+123:021  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+123:021  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+123:021  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+123:021  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+123:021  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+123:021  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+123:021  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+123:021  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+123:021  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+123:021  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+123:021  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+123:021  0:000  Found UEFI Acpi 2.0 RSDP at A60A4000
+123:021  0:000  Saving ACPI tables from RSDP A60A4000 to EFI\CLOVER\ACPI\origin ...
+123:021  0:000   A60A4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+123:021  0:000    (Xsdt: A60A4098, Rsdt: A60A4028)
+123:021  0:000    A60A4098: 'XSDT', 'A M I', Rev: 1, Len: 172
+123:021  0:000    A60A4028: 'RSDT', 'A M I', Rev: 1, Len: 104
+123:021  0:000    Tables in Xsdt: 17
+123:021  0:000    0. A60D9058: 'FACP', 'A M I', Rev: 5, Len: 268
+123:021  0:000        (Dsdt: A60A41D8, Facs: A643CF80, XDsdt: A60A41D8, XFacs: 0)
+123:021  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+123:024  0:002        A643CF80: 'FACS', Ver: 2, Len: 64
+123:024  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+123:024  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+123:024  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+123:024  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+123:024  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+123:024  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+123:024  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+123:024  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+123:024  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+123:024  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+123:024  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+123:024  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+123:024  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+123:024  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+123:024  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+123:024  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+123:024  0:000    Tables in Rsdt: 17
+123:024  0:000    0. A60A4150: 'FACP', 'A M I', Rev: 2, Len: 132
+123:024  0:000        (Dsdt: A60A41D8, Facs: A643CF40)
+123:024  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+123:027  0:002        A643CF40: 'FACS', Ver: 0, Len: 64
+123:027  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+123:027  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+123:027  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+123:027  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+123:027  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+123:027  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+123:027  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+123:027  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+123:027  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+123:027  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+123:027  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+123:027  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+123:027  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+123:027  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+123:027  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+123:027  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+123:027  0:000  Found UEFI Acpi 1.0 RSDP at A60A4000
+123:027  0:000  Printing ACPI tables from RSDP A60A4000 ...
+123:027  0:000   A60A4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+123:027  0:000    (Xsdt: A60A4098, Rsdt: A60A4028)
+123:027  0:000    A60A4098: 'XSDT', 'A M I', Rev: 1, Len: 172
+123:027  0:000    A60A4028: 'RSDT', 'A M I', Rev: 1, Len: 104
+123:027  0:000    Tables in Xsdt: 17
+123:027  0:000    0. A60D9058: 'FACP', 'A M I', Rev: 5, Len: 268
+123:027  0:000        (Dsdt: A60A41D8, Facs: A643CF80, XDsdt: A60A41D8, XFacs: 0)
+123:027  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+123:030  0:002        A643CF80: 'FACS', Ver: 2, Len: 64
+123:030  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+123:030  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+123:030  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+123:030  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+123:030  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+123:030  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+123:030  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+123:030  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+123:030  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+123:030  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+123:030  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+123:030  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+123:030  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+123:030  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+123:030  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+123:030  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+123:030  0:000    Tables in Rsdt: 17
+123:030  0:000    0. A60A4150: 'FACP', 'A M I', Rev: 2, Len: 132
+123:030  0:000        (Dsdt: A60A41D8, Facs: A643CF40)
+123:030  0:000        A60A41D8: 'DSDT', 'A M I', Rev: 2, Len: 216703
+123:033  0:002        A643CF40: 'FACS', Ver: 0, Len: 64
+123:033  0:000    1. A60D9168: 'APIC', 'A M I', Rev: 3, Len: 244
+123:033  0:000    2. A60D9260: 'FPDT', 'A M I', Rev: 1, Len: 68
+123:033  0:000    3. A60D92A8: 'FIDT', 'A M I', Rev: 1, Len: 156
+123:033  0:000    4. A60D9348: 'MCFG', 'A M I', Rev: 1, Len: 60
+123:033  0:000    5. A60D9388: 'SSDT', 'IdeTable', Rev: 1, Len: 1173
+123:033  0:000    6. A60D9820: 'UEFI', 'A M I', Rev: 1, Len: 66
+123:033  0:000    7. A60D9868: 'HPET', 'A M I', Rev: 1, Len: 56
+123:033  0:000    8. A60D98A0: 'MSCT', 'A M I', Rev: 1, Len: 144
+123:033  0:000    9. A60D9930: 'SLIT', 'A M I', Rev: 1, Len: 45
+123:033  0:000    10. A60D9960: 'SRAT', 'A M I', Rev: 3, Len: 4440
+123:033  0:000    11. A60DAAB8: 'WDDT', 'A M I', Rev: 1, Len: 64
+123:033  0:000    12. A60DAAF8: 'SSDT', 'PmMgt', Rev: 2, Len: 67162
+123:033  0:000    13. A60EB158: 'NITR', 'A M I', Rev: 2, Len: 113
+123:033  0:000    14. A60EB1D0: 'BGRT', 'ALASKAA', Rev: 1, Len: 56
+123:033  0:000    15. A60EB208: 'DMAR', 'A M I', Rev: 1, Len: 204
+123:033  0:000    16. A60EB2D8: 'ASF!', ' HCG', Rev: 32, Len: 160
+174:076  51:043  ReinitSelfLib after theme change
+174:076  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,E48B5D8F-ACBC-4783-8CB7-53A945609D1A,0x28,0x64000)
+174:080  0:004  === [ ScanVolumes ] =======================================
+174:080  0:000  Found 13 volumes with blockIO
+174:080  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)
+174:081  0:001  - [01]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(1,GPT,E48B5D8F-ACBC-4783-8CB7-53A945609D1A,0x28,0x64000)
+174:082  0:001          Result of bootcode detection: bootable unknown (legacy)
+174:085  0:003          This is SelfVolume !!
+174:085  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)
+174:086  0:001          Result of bootcode detection: bootable unknown (legacy)
+174:086  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)
+174:087  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,235CADFB-B793-4C23-AA54-F0450DF73C21,0x28,0x64000)
+174:087  0:000          Result of bootcode detection: bootable unknown (legacy)
+174:087  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,8290C231-02CE-4A80-A907-0237EDE02618,0x64028,0x1D1BA7E67)
+174:088  0:000          Result of bootcode detection: bootable unknown (legacy)
+174:088  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AAF61F8B3326C3428E1381912E2F302B)
+174:088  0:000          hiding this volume
+174:088  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FA6DC5D86F9A23408D11967B630F0F26)
+174:088  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,87CC688C4854624BB208BB2BB28690D0)
+174:088  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E14F8BC55CD2654D96E248E1ED377B2A)
+174:088  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6A597C1142925C4BB4EAFA53ABD0DB1C)
+174:088  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D7CB0C213510AD4EBCE886159F18C7A1)
+174:088  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x11,0x4)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,8290C231-02CE-4A80-A907-0237EDE02618,0x64028,0x1D1BA7E67)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E4FB129A6371BE46986C61EC3727839F)
+174:089  0:000  Choosing theme SimpleThemeDark
+174:089  0:000  after NVRAM boot-args=slide=0 darkwake=0 npci=0x3000 nvda_drv=1
+174:089  0:000  === [ ScanLoader ] ========================================
+174:089  0:000  - [01]: 'EFI'
+174:213  0:124  - [04]: 'EFI'
+174:296  0:083  - [06]: 'Preboot', hidden
+174:296  0:000  - [07]: 'Hackintosh'
+174:309  0:012          AddLoaderEntry for Volume Name=Hackintosh
+174:312  0:003      Check if volume Is Hibernated:
+174:312  0:000      Check sleep image 'by signature':
+174:316  0:004      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+174:316  0:000      using default sleep image name = \private\var\vm\sleepimage
+174:317  0:001      sleepimage not found -> Not Found
+174:317  0:000      hibernated: no - sign
+174:417  0:099  - [08]: 'Recovery'
+174:418  0:001          AddLoaderEntry for Volume Name=Recovery
+174:518  0:099  - [09]: 'VM'
+174:601  0:083  - [10]: 'VirtualMachine'
+174:688  0:086  - [11]: 'Cassius'
+174:776  0:088  - [12]: 'BackUp'
+174:865  0:088  === [ AddCustomTool ] =====================================
+174:865  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+174:865  0:000  === [ FindStartupDiskVolume ] =============================
+174:865  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)\NVMe(0x1,00-00-00-00-00-00-00-00)\HD(2,GPT,7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26,0x64028,0x3B97D267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FA6DC5D86F9A23408D11967B630F0F26)
+174:865  0:000     - searching for that partition
+174:865  0:000      - found entry 0. 'Boot macOS from Hackintosh', Volume 'Hackintosh'
+174:865  0:000  Boot redirected to Entry 0. 'Boot macOS from Hackintosh'
+174:865  0:000  DefaultIndex=0 and MainMenu.EntryCount=6
+188:111  13:245  BootVariable of the entry is empty
+188:111  0:000  === [ StartLoader ] =======================================
+188:111  0:000  Finally: ExternalClock=25MHz BusSpeed=100000kHz CPUFreq=3600MHz PIS: hw.busfrequency=100000000Hz
+188:111  0:000  Loading boot.efi  status=Success
+188:255  0:144  GetOSVersion: 10.13.6 (17G65)
+188:255  0:000  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS | CSR_ALLOW_TASK_FOR_PID | CSR_ALLOW_UNRESTRICTED_DTRACE | CSR_ALLOW_UNRESTRICTED_NVRAM
+188:255  0:000  Filtering KextPatches:
+188:255  0:000   - [00]: AppleUSBXHCIPCI (change 15 port limit to 31 in XHCI kext (X99-series) 10.12, GA-X99P-SLI has possible 26 ports?) :: BinPatch :: [OS: 10.13.6 | MatchOS: All | MatchBuild: All] ==> allowed
+188:255  0:000   - [01]: IOPCIFamily (5960XPatch 10.12 by mano) :: BinPatch :: [OS: 10.13.6 | MatchOS: All | MatchBuild: All] ==> allowed
+188:255  0:000  Will not patch boot.efi
+188:255  0:000  === [ PatchSmbios ] =======================================
+188:255  0:000  insert table 9 for dev 0:0
+188:255  0:000  insert table 9 for dev 0:1
+188:255  0:000  insert table 9 for dev 19:0
+188:256  0:000  Trusting SMBIOS...
+188:256  0:000  Channels: 2
+188:256  0:000  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+188:256  0:000  SMBIOS Type 17 Index = 0 => 0 0:
+188:256  0:000   DIMM1 EMPTY
+188:256  0:000   partNum=CMK32GX4M2B3000C15 
+188:256  0:000  SMBIOS Type 17 Index = 1 => 2 2:
+188:256  0:000   DIMM2 2133MHz 16384MB
+188:256  0:000  SMBIOS Type 17 Index = 2 => 1 1:
+188:256  0:000   DIMM3 EMPTY
+188:256  0:000  SMBIOS Type 17 Index = 3 => 3 3:
+188:256  0:000   DIMM4 EMPTY
+188:256  0:000  SMBIOS Type 17 Index = 4 => 4 4:
+188:256  0:000   DIMM5 EMPTY
+188:256  0:000   partNum=CMK32GX4M2B3000C15 
+188:256  0:000  SMBIOS Type 17 Index = 5 => 6 6:
+188:256  0:000   DIMM6 2133MHz 16384MB
+188:256  0:000  SMBIOS Type 17 Index = 6 => 5 5:
+188:256  0:000   DIMM7 EMPTY
+188:256  0:000  SMBIOS Type 17 Index = 7 => 7 7:
+188:256  0:000   DIMM8 EMPTY
+188:256  0:000  mTotalSystemMemory = 32768
+188:256  0:000  NumberOfMemoryDevices = 8
+188:256  0:000  Type20[0]->End = 0xFFFFFF, Type17[1] = 0x4000
+188:256  0:000  Type20[1]->End = 0x1FFFFFF, Type17[5] = 0xC000
+188:256  0:000  Table 131 is present, CPUType=31
+188:256  0:000  Change to: A02
+188:256  0:000  === [ PatchACPI ] =========================================
+188:256  0:000  Xsdt reallocation done
+188:256  0:000  old FADT length=10C
+188:256  0:000   SignatureFixup: 0x4A164336 -> 0x0
+188:261  0:004  Apply DsdtFixMask=0x00008000
+188:261  0:000     drop _DSM mask=0x0000
+188:261  0:000  === [ FixBiosDsdt ] =======================================
+188:261  0:000  VideoCard devID=0x1B0610DE
+188:261  0:000  DisplayADR1[0] = 0x30000, DisplayADR2[0] = 0x0
+188:261  0:000  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+188:261  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+188:312  0:050  Audio HDA (addr:0x1B0000) setting specified layout-id=1 (0x1)
+188:312  0:000  USBADR[2] = 0x1D0000 and PCIe = 0xFFFE
+188:312  0:000  Patching DSDT:
+188:312  0:000   - [XHCI to XHC_]: pattern 58484349, patched at: [ (833) (1CF1) (42E) (9F64) (2845) (27B) (C86D) (69C4) (69C4) (694A) ]
+188:312  0:000  first CPU found at 2C25 offset 2C29
+188:312  0:000  device candidate at 2B8C
+188:312  0:000  device inserted in acpi_cpu_score SCK0
+188:312  0:000  score candidate at 29A0
+188:312  0:000  score inserted in acpi_cpu_score _SB_SCK0
+188:312  0:000  Found ACPI CPU: CP00 | CP01 | CP02 | CP03 | CP04 | CP05 | CP06 | CP07 | CP08 | CP09 | CP0A | CP0B | CP0C | CP0D | CP0E | CP0F | CP10 | CP11 | CP12 | CP13 | CP14 | CP15 | CP16 | CP17 | CP18 | CP19 | CP1A | CP1B | CP1C | CP1D | CP1E | CP1F , within the score: _SB_SCK0
+188:312  0:000  patch HDEF in DSDT 
+188:312  0:000  Start HDA Fix
+188:312  0:000  found HDA device NAME(_ADR,0x001B0000) And Name is ALZA
+188:312  0:000  Name ALZA present at 0x13D37, renaming to HDEF
+188:313  0:000  PreCleanup XSDT: count=17, length=172
+188:313  0:000  PreCleanup XSDT, corrected XSDT: count=17, length=172
+188:313  0:000  === [ ACPIDropTables ] ====================================
+188:313  0:000  Drop tables from XSDT, SIGN=DMAR TableID=A M I Length=204
+188:313  0:000   Table[15]: DMAR  A M I  204 dropped
+188:313  0:000  Drop tables from XSDT, SIGN=SSDT TableID=PmMgt Length=67162
+188:313  0:000   Table[12]: SSDT  PmMgt  67162 dropped
+188:313  0:000  === [ PatchAllSSDT ] ======================================
+188:313  0:000  Patch table: SSDT  IdeTable len=0x495
+188:313  0:000  0. [XHCI to XHC_]: pattern 58484349, bin not found / already patched!
+188:313  0:000  === [ ACPIPatchedAML ] ====================================
+188:313  0:000  Unsorted
+188:313  0:000  Inserting SSDT-G1-Snipher-H6-Fix.aml from EFI\CLOVER\ACPI\patched: size=377 ... Success
+188:317  0:004  Inserting SSDT-NVMe-Pcc.aml from EFI\CLOVER\ACPI\patched: size=134 ... Success
+188:321  0:004  Inserting SSDT-Graphics-Sleep-Fix.aml from EFI\CLOVER\ACPI\patched: size=446 ... Success
+188:325  0:004  CPUBase=0 and ApicCPUBase=0 ApicCPUNum=12
+188:325  0:000  Maximum control=0x24
+188:325  0:000  Turbo control=0x28
+188:325  0:000  P-States: min 0xC, max 0x28
+188:325  0:000  SSDT with CPU P-States and plugin-type generated successfully
+188:325  0:000  SSDT with CPU C-States generated successfully
+188:325  0:000  Cleanup XSDT: count=22, length=212
+188:325  0:000  corrected XSDT count=20, length=196
+188:325  0:000  === [ RestSetup macOS ] ===================================
+188:325  0:000  EdidDiscovered size=128
+188:325  0:000  --- Discovered EDID Table size:128
+188:325  0:000  000  |  00  FF  FF  FF  FF  FF  FF  00  10  AC
+188:325  0:000  010  |  6F  D0  4C  41  4C  30  1D  1A  01  04
+188:325  0:000  020  |  A5  37  1F  78  3E  44  55  A9  55  4D
+188:325  0:000  030  |  9D  26  0F  50  54  A5  4B  00  B3  00
+188:325  0:000  040  |  D1  00  71  4F  A9  40  81  80  77  80
+188:325  0:000  050  |  01  01  01  01  56  5E  00  A0  A0  A0
+188:325  0:000  060  |  29  50  30  20  35  00  29  37  21  00
+188:325  0:000  070  |  00  1A  00  00  00  FF  00  50  48  4B
+188:325  0:000  080  |  54  32  36  37  4C  30  4C  41  4C  0A
+188:325  0:000  090  |  00  00  00  FC  00  44  45  4C  4C  20
+188:325  0:000  100  |  55  32  35  31  35  48  0A  20  00  00
+188:325  0:000  110  |  00  FD  00  38  56  1E  71  1E  01  0A
+188:325  0:000  120  |  20  20  20  20  20  20  01  6C
+188:325  0:000  NVidia GFX injection not set
+188:325  0:000   setting specified layout-id=1 (0x1)
+188:325  0:000  stringlength = 2036
+188:325  0:000  CurrentMode: Width=2560 Height=1440
+188:325  0:000  Beginning FSInjection
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: A0704C98
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: A0704C98
+188:331  0:006  Use origin smbios table type 1 guid.
+188:335  0:003  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+188:335  0:000  Extra kext: EFI\CLOVER\kexts\Other\WhateverGreen.kext (v.1.2.0)
+188:352  0:017  Extra kext: EFI\CLOVER\kexts\Other\XHCI-x99-injector.kext (v.0.5.0)
+188:358  0:005  Extra kext: EFI\CLOVER\kexts\Other\VoodooTSCSync.kext (v.1.1)
+188:371  0:013  Extra kext: EFI\CLOVER\kexts\Other\USBInjectAll.kext (v.0.5.10)
+188:453  0:081  Extra kext: EFI\CLOVER\kexts\Other\NullCPUPowerManagement.kext (v.1.0.0d2)
+188:465  0:012  Extra kext: EFI\CLOVER\kexts\Other\Lilu.kext (v.1.2.5)
+188:484  0:018  Extra kext: EFI\CLOVER\kexts\Other\LPCSensors.kext (v.1438)
+188:583  0:098  Extra kext: EFI\CLOVER\kexts\Other\IntelMausiEthernet.kext (v.2.1.0)
+188:597  0:014  Extra kext: EFI\CLOVER\kexts\Other\HackrNVMeFamily-10_12_2.kext (v.92.1.0)
+188:613  0:015  Extra kext: EFI\CLOVER\kexts\Other\GPUSensors.kext (v.1438)
+188:630  0:017  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC.kext (v.1438)
+188:648  0:018  Extra kext: EFI\CLOVER\kexts\Other\CPUSensors.kext (v.1438)
+188:662  0:014  Extra kext: EFI\CLOVER\kexts\Other\AppleALC.kext (v.1.2.2)
+188:686  0:023    |-- PlugIn kext: EFI\CLOVER\kexts\Other\AppleALC.kext\Contents\PlugIns\PinConfigs.kext (v.1.0.0)
+188:890  0:204  Extra kext: EFI\CLOVER\kexts\Other\ACPISensors.kext (v.1438)
+188:915  0:025  SetStartupDiskVolume:
+188:915  0:000    * Volume: 'Hackintosh'
+188:915  0:000    * LoaderPath: '<null string>'
+188:915  0:000    * DevPath: Hackintosh
+188:915  0:000    * GUID = 7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26
+188:915  0:000    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>7F0C6A19-EF7C-4E04-9C43-AD1D4E0C2B26</string></dict></dict></dict></array>
+188:915  0:000  SetScreenResolution: 2560x1440 - already set
+188:915  0:000  Custom boot is disabled
+188:916  0:000  Closing log
