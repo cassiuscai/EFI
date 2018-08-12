@@ -136,6 +136,7 @@
 			<string>BOOTX64.EFI</string>
 			<string>Windows</string>
 			<string>Preboot</string>
+			<string>Recovery</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -207,6 +208,8 @@
 				<data>
 				g710////EA==
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>AppleUSBXHCIPCI</string>
 				<key>Replace</key>
@@ -223,6 +226,8 @@
 				<data>
 				SIH7AAAAQA==
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>IOPCIFamily</string>
 				<key>Replace</key>
