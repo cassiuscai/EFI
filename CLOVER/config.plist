@@ -96,7 +96,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>1</string>
+			<integer>1</integer>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -188,13 +188,46 @@
 		<key>Debug</key>
 		<false/>
 		<key>FakeCPUID</key>
-		<string>0x0306a0</string>
+		<string>0x040674</string>
 		<key>KernelCpu</key>
 		<false/>
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
 		<true/>
+		<key>KernelToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>xcpm_10.13.6</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				weMISGPTidBIweoguZkBAAAPMEj/Bbm9awBIg8QIW13D
+				Zi4PH4QAAAAAAA==
+				</data>
+				<key>Replace</key>
+				<data>
+				uwD/AABIY9OJ0EjB6iC5mQEAAA8wSP8Fub1rAEiDxAhb
+				XcOQkJCQkJCQkA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>xcpm_pkg_scope_msrs</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				vgcAAAAx0uiU/P//
+				</data>
+				<key>Replace</key>
+				<data>
+				vgcAAAAx0pCQkJCQ
+				</data>
+			</dict>
+		</array>
 		<key>KernelXCPM</key>
 		<true/>
 		<key>KextsToPatch</key>
@@ -202,10 +235,14 @@
 			<dict>
 				<key>Comment</key>
 				<string>Remove USB port limit in XHCI kext</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				g32IDw+DpwQAAA==
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
@@ -215,7 +252,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>5960XPatch 10.12 by mano</string>
+				<string>X99 Patch by braumbear</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -229,6 +266,24 @@
 				<key>Replace</key>
 				<data>
 				SIH7AAAAgA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>FredWst DP/HDMI patch</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				3hALDg==
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleHDAController</string>
+				<key>Replace</key>
+				<data>
+				3hDvEA==
 				</data>
 			</dict>
 		</array>
@@ -288,7 +343,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>YES</string>
+		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
 		<key>NvidiaWeb</key>
