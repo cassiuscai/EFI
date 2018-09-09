@@ -235,24 +235,6 @@
 				g32ID5CQkJCQkA==
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>FredWst DP/HDMI patch</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				3hALDg==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleHDAController</string>
-				<key>Replace</key>
-				<data>
-				3hC6Dw==
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
