@@ -96,7 +96,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>1</string>
+			<integer>1</integer>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -217,6 +217,42 @@
 				SIH7AAAAgA==
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Remove USB port limit in XHCI kext</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g32IDw+DpwQAAA==
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>
+				g32ID5CQkJCQkA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>FredWst DP/HDMI patch</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				3hALDg==
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleHDAController</string>
+				<key>Replace</key>
+				<data>
+				3hC6Dw==
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -274,7 +310,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>YES</string>
+		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
 		<key>NvidiaWeb</key>
