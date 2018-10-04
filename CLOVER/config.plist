@@ -79,10 +79,12 @@
 		<string>LastBootedVolume</string>
 		<key>Legacy</key>
 		<string>PBR</string>
+		<key>NoEarlyProgress</key>
+		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>10</integer>
+		<integer>8</integer>
 		<key>XMPDetection</key>
 		<integer>1</integer>
 	</dict>
@@ -160,7 +162,7 @@
 			<key>Linux</key>
 			<true/>
 			<key>Tool</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Theme</key>
 		<string>Hackintosh_ID</string>
@@ -327,6 +329,8 @@
 				<data>
 				AEFQUExFIFNTRAA=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
