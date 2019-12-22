@@ -25,13 +25,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					WEhDSQ==
-					</data>
+					<data>WEhDSQ==</data>
 					<key>Replace</key>
-					<data>
-					WEhDXw==
-					</data>
+					<data>WEhDXw==</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -205,15 +201,9 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				weMISGPTidBIweoguZkBAAAPMEj/Bbm9awBIg8QIW13D
-				Zi4PH4QAAAAAAA==
-				</data>
+				<data>weMISGPTidBIweoguZkBAAAPMEj/Bbm9awBIg8QIW13DZi4PH4QAAAAAAA==</data>
 				<key>Replace</key>
-				<data>
-				uwD/AABIY9OJ0EjB6iC5mQEAAA8wSP8Fub1rAEiDxAhb
-				XcOQkJCQkJCQkA==
-				</data>
+				<data>uwD/AABIY9OJ0EjB6iC5mQEAAA8wSP8Fub1rAEiDxAhbXcOQkJCQkJCQkA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -221,13 +211,19 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				vgcAAAAx0uiU/P//
-				</data>
+				<data>vgcAAAAx0uiU/P//</data>
 				<key>Replace</key>
-				<data>
-				vgcAAAAx0pCQkJCQ
-				</data>
+				<data>vgcAAAAx0pCQkJCQ</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>digital audio fix</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>Y29tLmFwcGxlAF9fa2VybmVsX18A</data>
+				<key>Replace</key>
+				<data>bm90LmFwcGxlAF9fa2VybmVsX18A</data>
 			</dict>
 		</array>
 		<key>KernelXCPM</key>
@@ -236,21 +232,17 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Remove USB port limit in XHCI kext</string>
+				<string>USB Port limit patch #2 10.15.x modify by DalianSky</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				g32IDw+DpwQAAA==
-				</data>
+				<data>g/kPDw==</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
-				<data>
-				g32ID5CQkJCQkA==
-				</data>
+				<data>g/k/Dw==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -258,17 +250,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				SIH7AAAAQA==
-				</data>
+				<data>SIH7AAAAQA==</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>IOPCIFamily</string>
 				<key>Replace</key>
-				<data>
-				SIH7AAAAgA==
-				</data>
+				<data>SIH7AAAAgA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -276,49 +264,37 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				3hALDg==
-				</data>
+				<data>3hALDg==</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleHDAController</string>
 				<key>Replace</key>
-				<data>
-				3hDvEA==
-				</data>
+				<data>3hDvEA==</data>
 			</dict>
 			<dict>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				MHgwMDA3MDAzYSwweGZmMDEwMDIx
-				</data>
+				<data>MHgwMDA3MDAzYSwweGZmMDEwMDIx</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleHIDKeyboard</string>
 				<key>Replace</key>
-				<data>
-				MHgwMDA3MDAzYSwweDAwMDcwMDNh
-				</data>
+				<data>MHgwMDA3MDAzYSwweDAwMDcwMDNh</data>
 			</dict>
 			<dict>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				MHgwMDA3MDAzYiwweGZmMDEwMDIw
-				</data>
+				<data>MHgwMDA3MDAzYiwweGZmMDEwMDIw</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleHIDKeyboard</string>
 				<key>Replace</key>
-				<data>
-				MHgwMDA3MDAzYiwweDAwMDcwMDNi
-				</data>
+				<data>MHgwMDA3MDAzYiwweDAwMDcwMDNi</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -326,17 +302,27 @@
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				AEFQUExFIFNTRAA=
-				</data>
+				<data>AEFQUExFIFNTRAA=</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAAA=
-				</data>
+				<data>AAAAAAAAAAAAAAA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB port limit patch #1 10.15.x modify by DalianSky(credit ydeng)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>g/sPDw==</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>g/s/Dw==</data>
 			</dict>
 		</array>
 	</dict>
